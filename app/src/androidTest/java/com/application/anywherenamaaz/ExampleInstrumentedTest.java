@@ -1,4 +1,4 @@
-package com.example.sampleapplication;
+package com.application.anywherenamaaz;
 
 import android.content.Context;
 

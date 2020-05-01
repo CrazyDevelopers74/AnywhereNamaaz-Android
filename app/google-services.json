@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "585015620986",
+    "firebase_url": "https://anywherenamaaz.firebaseio.com",
+    "project_id": "anywherenamaaz",
+    "storage_bucket": "anywherenamaaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585015620986:android:73ca8e40c4c5d6119ed2c3",
+        "android_client_info": {
+          "package_name": "com.application.anywherenamaaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585015620986-pkecr8ltq4ngvq0hi7gpnqs4rb24e3nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.anywherenamaaz",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "585015620986-r10u8g9hj9ipue6c68egmcrn5jgds0k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChJdqGEYa0qlyoQNwmcc864d8K9atzQIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585015620986-r10u8g9hj9ipue6c68egmcrn5jgds0k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
