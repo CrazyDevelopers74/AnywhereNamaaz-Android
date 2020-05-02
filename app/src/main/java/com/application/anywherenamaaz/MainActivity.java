@@ -66,21 +66,21 @@ public class MainActivity extends AppCompatActivity {
         SQLiteDatabase myDb = openOrCreateDatabase("VoiceCalling",MODE_PRIVATE,null);
         myDb.execSQL("CREATE TABLE IF NOT EXISTS User(Name VARCHAR, Token VARCHAR);");
         if(!userUtil.getNameFromDb(myDb).isEmpty()) {
-            setContentView(R.layout.activity_name);
+            setContentView(R.layout.activity_main);
         } else {
             setContentView(R.layout.activity_name);
         }
     }
 
     public void onButtonClick(View v) {
-        EditText editText = findViewById(R.id.conferenceName);
-        String text = editText.getText().toString();
-        if (text.length() > 0) {
+        //EditText editText = findViewById(R.id.conferenceName);
+        //String text = editText.getText().toString();
+       // if (text.length() > 0) {
             // Build options object for joining the conference. The SDK will merge the default
             // one we set earlier and this one when joining.
             JitsiMeetConferenceOptions options
                     = new JitsiMeetConferenceOptions.Builder()
-                    .setRoom(text)
+                    .setRoom("crazy-developer")
                     .setAudioOnly(true)
                     .setAudioMuted(true)
                     .setVideoMuted(true)
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             // Launch the new activity with the given options. The launch() method takes care
             // of creating the required Intent and passing the options.
             JitsiMeetActivity.launch(this, options);
-        }
+        //}
     }
 
     public void nameSubmit(View v){
